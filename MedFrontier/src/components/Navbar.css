@@ -1,0 +1,61 @@
+/* Navbar.css */
+
+.header {
+  background-color: #242424;
+  padding: 20px 5%;
+  display: flex;
+  align-items: center;
+}
+
+/* lay out your list horizontally */
+.logo {
+  color:#fff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 3rem;
+}
+
+/* space out the items */
+.header ul  {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* style the links */
+.header ul li{
+  margin-right: 2rem;
+}
+
+/* hover underline */
+.header ul li :last-child{
+ margin-right: 0;
+}
+
+.header ul li a{
+  color:#fff;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  transition: color 0.3 ease;
+}
+
+.header ul li a::before{
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+.header ul li a:hover{
+  color: #e0e0e0;
+}
+
+.header ul li a:hover::before{
+  width: 100%;
+}
