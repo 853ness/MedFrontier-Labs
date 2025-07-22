@@ -20,7 +20,7 @@ import './Navbar.css'
             if (surgeryRef.current && !surgeryRef.current.contains(e.target)){
                 setSurgeryOpen(false);
             }
-            if (monitoringRef.current && !monitoringRef.contains(e.target)){
+            if (monitoringRef.current && !monitoringRef.current.contains(e.target)){
                 setMonitoringOpen(false);
             }
         };
@@ -43,13 +43,13 @@ import './Navbar.css'
                 <span
                     className="dropdown-toggle" onClick= {() => setDiagnosticOpen( o => !o)}
                 >
-                    Diagnostic <i className="fas fa-cerat-down" />
+                    Diagnostic <i className="fas-fa-ceret-down" />
                 </span>
                 {diagnosticOpen &&(
                     <ul className="dropdown-menu">
-                        <li><Link to="/diagnostic/test1">Tools</Link></li>
-                        <li><Link to="/diagnostic/test2">Sensors</Link></li>
-                        <li><Link to="/diagnostic/test3">Monitoring</Link></li>
+                        <li><Link to="/diagnostic/tools">Tools</Link></li>
+                        <li><Link to="/diagnostic/sensors">Sensors</Link></li>
+                        <li><Link to="/diagnostic/monitors">Monitors</Link></li>
                     </ul>
                 )}
                 </li>
@@ -64,9 +64,9 @@ import './Navbar.css'
                 </span>
                 {surgeryOpen && (
                     <ul className="dropdown-menu">
-                        <li><Link to="/surgery/option1">Monitor</Link></li>
-                        <li><Link to="/surgery/option2">Treatment</Link></li>
-                        <li><Link to="/surgery/option3">Robotics AI</Link></li>
+                        <li><Link to="/surgery/monitor">Monitor</Link></li>
+                        <li><Link to="/surgery/treatment">Treatment</Link></li>
+                        <li><Link to="/surgery/robotics-ai">Robotics AI</Link></li>
                     </ul>
                 )}
                 </li>
@@ -81,10 +81,10 @@ import './Navbar.css'
                 </span>
                 {monitoringOpen && (
                     <ul className="dropdown-menu">
-                        <li><Link to="/monitoring/option1">Heart AI </Link></li>
-                        <li><Link to="/monitoring/option2">Smart Sensors</Link></li>
-                        <li><Link to="/monitoring/option3">Wearable Devices</Link></li>
-                        <li><Link to="/monitoring/option4">AI Companions</Link></li>
+                        <li><Link to="/monitoring/heart-ai">Heart AI </Link></li>
+                        <li><Link to="/monitoring/smart-sensors">Smart Sensors</Link></li>
+                        <li><Link to="/monitoring/wearable-devices">Wearable Devices</Link></li>
+                        <li><Link to="/monitoring/ai-companions">AI Companions</Link></li>
                     </ul>
                 )}
                 </li>
