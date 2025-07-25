@@ -5,7 +5,7 @@ import React from "react";
 export default function Tools() {
   return (
     <div
-      className="relative flex w-full min-h-screen flex-col bg-[#111518] overflow-x-hidden"
+      className="relative flex w-full min-h-screen flex-col bg-[#111a22] overflow-x-hidden"
       style={{ fontFamily: 'Lexend, "Noto Sans", sans-serif' }}
     >
       <div className="layout-container flex h-full flex-grow flex-col">
