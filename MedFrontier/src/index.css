@@ -11,6 +11,13 @@ body {
   background-color: #121516;
 }
 
+h1{
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
 a{
   text-decoration:none ;
 }
+

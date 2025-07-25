@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function AiCompanions(){
-    return <h1>AiCompanions</h1>;
+    return <h1>AI Companions</h1>;
 }

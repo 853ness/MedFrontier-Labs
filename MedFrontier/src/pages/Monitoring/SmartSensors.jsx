@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function SmartSensors(){
-    return <h1>SmartSensors</h1>;
+    return <h1>Smart Sensors</h1>;
 }

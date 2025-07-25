@@ -3,7 +3,7 @@ import {Navbar} from './components/Navbar'
 
 import Home from "./pages/Home"
 
-import Monitors  from './pages/Diagnostic/Tools'
+import Monitors from './pages/Diagnostic/monitors'
 import Sensors from './pages/Diagnostic/Sensors'
 import Tools from './pages/Diagnostic/Tools'
 
