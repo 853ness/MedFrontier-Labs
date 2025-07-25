@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import {Navbar} from './components/Navbar'
 
 import Home from "./pages/Home"
+import About from "./pages/About"
 
 import Monitors from './pages/Diagnostic/monitors'
 import Sensors from './pages/Diagnostic/Sensors'
@@ -25,6 +26,9 @@ function App () {
            {/* root and home */}
           <Route path="/"     element={<Home />} />
           <Route path="/home" element={<Home />} />
+
+           {/* about page */}
+          <Route path="about" element={<About />} />
 
           {/*Diagnostic dropdown targets*/}
           <Route path="/diagnostic/tools" element={<Tools />} />
