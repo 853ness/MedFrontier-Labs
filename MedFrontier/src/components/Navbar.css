@@ -1,10 +1,35 @@
-/* Navbar.css */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image {
+    height: 60px; /* Adjust as needed */
+    width: auto;
+}
+
+.logo-text {
+    color: white; /* Or your preferred color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 .header {
   background-color: #242424;
-  padding: 20px 5%;
+  padding: 10px 5%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  
+}
+
+.nav-links-wrapper {
+  display: flex;
+  align-items: center; /* ✅ Ensures the ul sits centered */
+  padding: 0;           /* Remove if it exists */
+  margin: 0;
 }
 
 /* lay out your list horizontally */
@@ -21,6 +46,10 @@
   display: flex;
   margin: 0;
   padding: 0;
+  position: absolute;
+  left: 38%;
+  gap: 2rem;
+  
 }
 
 /* remove right margin on the last <li> */
