@@ -1,6 +1,7 @@
 import{ Link } from "react-router-dom";
 import React, { useState, useRef, useEffect } from "react";
 import './Navbar.css'
+import logo from './logo.png'
 
  export const Navbar =() => {
     //dropdown state and ref
@@ -31,7 +32,12 @@ import './Navbar.css'
 
     return (
         <nav className="header">
+             <div className="logo-container">
+                {/* Logo placed here */}
+                <img src={logo} alt="MedFrontier Labs Logo" className="logo-image" />
             <Link to="/" className="logo">MedFrontier Labs</Link>
+            </div>
+            <div className="nav-links-wrapper">
             <ul>
                 <li>
                 <Link to="/home">Home</Link>
@@ -89,6 +95,7 @@ import './Navbar.css'
                 )}
                 </li>
             </ul>
+            </div>
         </nav>
     );
 };
