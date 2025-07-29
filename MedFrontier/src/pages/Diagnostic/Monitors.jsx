@@ -1,182 +1,182 @@
-
 // src/pages/Diagnostic/Tools.jsx
 import React from "react";
 
 export default function Monitors() {
   return (
     <div
-      className="relative flex w-full min-h-screen flex-col bg-[#111518] overflow-x-hidden"
+      className="relative flex w-full min-h-screen flex-col bg-[#111b22] dark group/design-root overflow-x-hidden"
       style={{ fontFamily: 'Lexend, "Noto Sans", sans-serif' }}
     >
-      <div className="layout-container flex h-full flex-grow flex-col">
+      <div className="layout-container flex h-full grow flex-col">
+        {/* ——— MAIN CONTENT ——— */}
         <div className="px-40 flex flex-1 justify-center py-5">
           <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
+            {/* Page Title */}
             <div className="flex flex-wrap justify-between gap-3 p-4">
               <p className="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">
                 Diagnostic Monitors
               </p>
             </div>
             <p className="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
-              Explore our advanced diagnostic tools designed for accurate and timely health assessments. Each tool is operated by skilled professionals to ensure the highest quality results.
+              Our recording devices are designed to capture high-quality physiological data, ensuring
+              accurate and reliable monitoring of patients' health. These devices are essential tools
+              for healthcare professionals, providing valuable insights into patient conditions and
+              aiding in effective treatment planning.
             </p>
 
+
+            {/* Product Showcase */}
             <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
-              Imaging
+              Heart and Brain 
             </h2>
-
-            {/* MRI Scanner */}
             <div className="p-4">
-              <div className="flex items-stretch justify-between gap-4 rounded-xl">
-                <div className="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p className="text-white text-base font-bold leading-tight">IBM Watson Health </p>
-                  <p className="text-[#9daeb8] text-sm font-normal leading-normal">
-                   AI enhances MRI interpretation by automating tumor detection (e.g., brain, prostate, or breast cancer), reducing scan times, and improving image clarity.
-                  </p>
-                </div>
-                <div
-                  className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style={{
-                    backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCcJLiyTo-2YlL6bPCIe9knr8MYCCosUuwLahgGBB0Kwk-saOpDrgHzlTNSJ03Wg2cqhEKqQaHSZdtIm6qkkTvzsquXKz_7bhXOvTFa5p8s5FgEb1Ze8uCKVH7hRLMuYnznfTAgJCUm7XxwSnp3f5IZpRc9N6w2wrYBwMMJInsXeA7Qf8crVZ8XaiZUfnzVckdFnKy0iRfWFTQA15uFLv0w9suDcCVmsXjsCrU1DTrIpHMlfZXnq7Lkkd2K_Qz6W138H4eAL-zrUIw")',
-                  }}
-                />
-              </div>
-            </div>
-
-            {/* Button under MRI */}
-            <div className="px-4 py-4 flex justify-end">
-              <button
-                onClick={() =>
-                  window.open(
-                    "https://example.com/your-research-paper.pdf",
+              <div className="grid grid-rows-2 grid-flow-col gap-6">
+                {/* Card 1 */}
+                <div className="flex flex-col overflow-hidden rounded-xl bg-[#1f282e]">
+                  <div
+                    className="w-full aspect-video bg-center bg-no-repeat bg-cover"
+                    style={{
+                      backgroundImage: `url("data:image/jpeg;base64,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")`
+                    }}
+                  />
+                  <div className="p-4 flex flex-col justify-between flex-1">
+                    <div>
+                      <p className="text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+                        RhythmAnalytics™
+                      </p>
+                      <p className="text-[#93b3c8] text-base leading-normal mt-1">
+                        Biofourmis’ RhythmAnalytics™ platform is a cloud-based AI solution that ingests ambulatory ECG recordings from FDA-cleared wearable sensors and processes them 
+                        through a densely connected convolutional neural network trained on over a million ECGs. The AI pipeline segments P-, QRS-, and T-wave complexes and classifies more than 15 arrhythmia types
+                        including atrial fibrillation, ventricular ectopy, and pauses on a beat-by-beat basis. Clinicians upload patient ECG data to the secure RhythmAnalytics portal, where the system runs 
+                        real-time analysis and generates prioritized alerts for urgent cases via an interactive dashboard. The platform computes detailed morphology metrics and arrhythmia risk scores, reducing manual
+                        interpretation time by about 42% while maintaining over 99% agreement with physician reviews Integration with EHRs is achieved through vendor-neutral APIs, embedding AI-flagged ECG strips 
+                        and summary reports directly into existing workflows without additional hardware. All algorithm updates are delivered through regulated software releases under FDA 510(k) clearance, 
+                        ensuring continuous performance improvements in a HIPAA-compliant environment. By automating ECG interpretation and triage, RhythmAnalytics supports proactive cardiac care, enabling 
+                        earlier intervention and reducing the burden on clinical teams.
+                      </p>
+                    </div>
+                    <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"
+                    onClick={() =>
+                       window.open(
+                    "https://www.innovationsincrm.com/latest-news/1528-biofourmis-rhythmanalytics-platform-receives-fda-clearance?utm_source=chatgpt.com",
                     "_blank"
                   )
-                }
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
-              >
-                Learn More
-              </button>
-            </div>
-
-            {/* CT Scanner */}
-            <div className="p-4">
-              <div className="flex items-stretch justify-between gap-4 rounded-xl">
-                <div className="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p className="text-white text-base font-bold leading-tight">CT Scanner</p>
-                  <p className="text-[#9daeb8] text-sm font-normal leading-normal">
-                    Computed Tomography (CT) scans use X-rays to create cross-sectional images of the body, aiding in the diagnosis of various conditions.
-                  </p>
+                }>
+                      Learn More
+                    </button>
+                  </div>
                 </div>
-                <div
-                  className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style={{
-                    backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuANf75ZE37XVVDkXbm4OBCE91GIw8jdLdAfOSMQTeptmStAFVKvId4Vc83hQocyGb7nXmDAtVeMDO-jpVOsmyDBbEsIYQH27g8He1am6thRUZmziWxkywvWgx9bX2XqL9dLjlXUkujxHGOsMn_rkwzvEcEhnvNyIvD9dpgHPVHZ3doc7tTRwOqzWFc6xBRR_vz61kQJoE9JeM2jGXxtOC1F-bYiT41zfCWM9vaHlsVEe3V1EUlU1FOmola0_LjwaRYbQtOvPrNfaiA")',
-                  }}
-                />
-              </div>
-            </div>
 
-            {/* Button under MRI */}
-            <div className="px-4 py-4 flex justify-end">
-              <button
-                onClick={() =>
-                  window.open(
-                    "https://example.com/your-research-paper.pdf",
+                {/* Card 2 */}
+                <div className="flex flex-col overflow-hidden rounded-xl bg-[#1f282e]">
+                  <div
+                    className="w-full aspect-video bg-center bg-no-repeat bg-cover"
+                    style={{
+                      backgroundImage: `url("data:image/jpeg;base64,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")`
+                    }}
+                  />
+                  <div className="p-4 flex flex-col justify-between flex-1">
+                    <div>
+                      <p className="text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+                        Ceribell Rapid Response EEG 
+                      </p>
+                      <p className="text-[#93b3c8] text-base leading-normal mt-1">
+                        Ceribell’s Point-of-Care EEG system combines a portable headband and bedside monitor with “Clarity,” a cloud-based machine-learning algorithm that interprets raw EEG every 
+                        10 seconds to estimate seizure burden in real time. The AI pipeline uses convolutional and temporal-pattern classifiers trained on thousands of annotated EEG records to 
+                        detect electrographic status epilepticus and non-convulsive seizures, issuing instantaneous alerts at the bedside. Data streams securely to a cloud portal, enabling neurologists 
+                        to review continuous EEG trends and flagged events from anywhere. By reducing time to seizure detection from hours to minutes, Ceribell helps guide timely treatment decisions,
+                        studies show up to a 30 % reduction in ICU stay duration. Its FDA 510(k) clearance and HIPAA-compliant architecture support deployment in EDs, ICUs, and procedural suites without 
+                        complex EEG lab setups. Regular software updates refine Clarity’s models under regulatory oversight, ensuring sustained performance as new EEG biomarkers emerge.
+                      </p>
+                    </div>
+                    <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"
+                    onClick={() =>
+                       window.open(
+                    "https://ceribell.com/product/clarity/?utm_source=chatgpt.com",
                     "_blank"
                   )
-                }
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
-              >
-                Learn More
-              </button>
-            </div>
-
-            {/* Ultrasound */}
-            <div className="p-4">
-              <div className="flex items-stretch justify-between gap-4 rounded-xl">
-                <div className="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p className="text-white text-base font-bold leading-tight">Ultrasound</p>
-                  <p className="text-[#9daeb8] text-sm font-normal leading-normal">
-                    Ultrasound uses sound waves to produce images of structures within the body, often used for monitoring pregnancies and examining organs.
-                  </p>
+                }>
+                      Learn More
+                    </button>
+                  </div>
                 </div>
-                <div
-                  className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style={{
-                    backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1CRRCwy7n4qGYzwqf4NVK8YsIUjbpF1HqrYl4YCM7xWlRoLVDd8UoYGiFO5C_YuL_Rwg0rQMCiglxKdrtDnjWBny-SSJrWlJ7Bjy9HZTboAsZmVKzyAaJeD2K3pgrUkWCqEH7T7E-5WMBo6fmgHoyNzBeg2hMLb00Kq_b-j0XnnMCF6XLncwKDI8ZD6Adq6_cHo2X984gYrpje-XXPRphcuxSTT_0sWx_2-QHO48Pu24yJBEP3kW3SZsEHNuMAfYeEDp_xC_v9Y")',
-                  }}
-                />
-              </div>
-            </div>
 
-            {/* Button under MRI */}
-            <div className="px-4 py-4 flex justify-end">
-              <button
-                onClick={() =>
-                  window.open(
-                    "https://example.com/your-research-paper.pdf",
+                {/* Card 3 */}
+                <div className="flex flex-col overflow-hidden rounded-xl bg-[#1f282e]">
+                  <div
+                    className="w-full aspect-video bg-center bg-no-repeat bg-cover"
+                    style={{
+                      backgroundImage: `url("data:image/jpeg;base64,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")`
+                    }}
+                  />
+                  <div className="p-4 flex flex-col justify-between flex-1">
+                    <div>
+                      <p className="text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+                        NeuroPace RNS® System
+                      </p>
+                      <p className="text-[#93b3c8] text-base leading-normal mt-1">
+                        The NeuroPace RNS System is an implantable, closed-loop neurostimulation device for drug-resistant focal epilepsy
+                        that continuously records intracranial EEG (iEEG) and uses patient-specific detection algorithms, based on machine-learning–tuned thresholds,
+                        to identify seizure precursors in real time. Upon detecting abnormal electrophysiological patterns, the device delivers brief, 
+                        targeted electrical pulses to disrupt emerging seizures, much like a cardiac pacemaker aborts arrhythmias. All detected events and 
+                        stimulation logs are transmitted wirelessly to a secure cloud, where advanced analytics track therapy efficacy and inform clinician-guided 
+                        reprogramming of detection parameters. Clinical trials show median seizure frequency reductions of 75 % at nine years, with improved patient 
+                        quality of life and progressive treatment optimization driven by long-term ambulatory brain-data analysis. Software and algorithm refinements 
+                        are delivered through controlled updates under FDA oversight, preserving safety while enhancing detection sensitivity. By integrating 
+                        diagnostic monitoring with on-demand therapy, the RNS System exemplifies AI-enabled closed-loop care for neurological disorders.
+
+                      </p>
+                    </div>
+                    <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"
+                    onClick={() =>
+                       window.open(
+                    "https://neuropace.com/providers/rns-system-neuromodulation/",
                     "_blank"
                   )
-                }
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
-              >
-                Learn More
-              </button>
-            </div>
-
-            {/* Laboratory */}
-            <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
-              Laboratory
-            </h2>
-
-            {/* Blood Analyzer */}
-            <div className="p-4">
-              <div className="flex items-stretch justify-between gap-4 rounded-xl">
-                <div className="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p className="text-white text-base font-bold leading-tight">Blood Analyzer</p>
-                  <p className="text-[#9daeb8] text-sm font-normal leading-normal">
-                    Our state-of-the-art blood analyzers provide quick and accurate results for a wide range of blood tests, aiding in the diagnosis of various conditions.
-                  </p>
+                }>
+                      Learn More
+                    </button>
+                  </div>
                 </div>
-                <div
-                  className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style={{
-                    backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuAhzxMVFUfnL1Ivz6I7spd2asGPKE1B6TBaHqenzW5NIZMFsVzuEbvdRpwbpea9AX7Q6qLM9HDZjMYgr_a0R9fF8D6-YGzqYDrmsFXkTsU9dfOE0FGWS0qRnOvdTS-9mAKyyYyMfoeeaMSC0EwEROvO_GxefA5sU77UODS6L60LvAK6827VxaSiKjDdc7ZiqPfw5BLO4hOWieRdEoQVzWH-fM_PsqlhjTnQn5SFajfOEhO4hFSFQ")'
-                  }}
-                />
+
+                {/* Card 4 */}
+                <div className="flex flex-col overflow-hidden rounded-xl bg-[#1f282e]">
+                  <div
+                    className="w-full aspect-video bg-center bg-no-repeat bg-cover"
+                    style={{
+                      backgroundImage: `url("https://images.philips.com/is/image/philipsconsumer/027dc29e20a34c98853cad1300dd5bbd?wid=1024&$jpglarge$")`
+                    }}
+                  />
+                  <div className="p-4 flex flex-col justify-between flex-1">
+                    <div>
+                      <p className="text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+                        Philips Cardiologs AI ECG Analysis Platform
+                      </p>
+                      <p className="text-[#93b3c8] text-base leading-normal mt-1">
+                        Philips Cardiologs AI is a cloud-based Holter ECG analysis solution that employs deep neural networks trained on over 200 million ECG recordings to detect more than 20 arrhythmia types,
+                        such as atrial fibrillation, pauses, and ventricular tachycardia, with cardiologist-level accuracy. After a patient wears a Holter or patch device, the full ECG is uploaded to the 
+                        secure Cardiologs cloud, where a convolutional neural-network pipeline segments P-, QRS-, and T-wave complexes and flags clinically actionable events. 
+                        These AI-flagged episodes are then reviewed by certified cardiographic technicians, reducing manual analysis time by up to 42 % while maintaining 99 % 
+                        agreement with physician interpretations. The platform’s vendor-neutral design and standardized APIs allow seamless integration into existing EHR and PACS systems, 
+                        delivering annotated ECG strips and summary reports directly into clinicians’ workflows. Regular, regulated software updates refine the underlying models
+                        never via uncontrolled retraining on live patient data to continuously enhance detection performance. Deployed under FDA 510(k) clearance and CE marking, 
+                        Cardiologs AI streamlines ambulatory ECG interpretation, accelerates diagnosis, and expands access to expert-level arrhythmia screening.
+                      </p>
+                    </div>
+                    <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"
+                    onClick={() =>
+                       window.open(
+                    "https://neuropace.com/providers/rns-system-neuromodulation/",
+                    "_blank"
+                  )
+                }>
+                      Learn More
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-
-            {/* Microscope */}
-            <div className="p-4">
-              <div className="flex items-stretch justify-between gap-4 rounded-xl">
-                <div className="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p className="text-white text-base font-bold leading-tight">Microscope</p>
-                  <p className="text-[#9daeb8] text-sm font-normal leading-normal">
-                    High-resolution microscopes are used to examine tissue and cell samples, assisting in the diagnosis of diseases at a cellular level.
-                  </p>
-                </div>
-                <div
-                  className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCls3pe35nBFmkWK2cUm3OZm2ZgHMiWq6Ro-oPGvIrRUN-wqjTwovJx3cQGRQZjOFQP4uc2ir7vXK5GgObOrKYqFPz5Ag7fuP0iuyBL0E38FWkExI4lFfdV0f5kpWUpClHKHGfATaqL8h4sKd2BJIw9nlOIS9lNl0WhFq9MyszZxErDzZ_lSUwjJsz47-wPjVcAxQ3XczKmqOqifti_yeSxQ_9faQVsdRm5ypnY-jxldWLcoignqKIFdLJpNhvv-S0ydY0dCC3ZZQA")'}}
-                />
-              </div>
-            </div>
-
-            {/* Genetic Testing Equipment */}
-            <div className="p-4">
-              <div className="flex items-stretch justify-between gap-4 rounded-xl">
-                <div className="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p className="text-white text-base font-bold leading-tight">Genetic Testing Equipment</p>
-                  <p className="text-[#9daeb8] text-sm font-normal leading-normal">
-                    Advanced equipment for genetic testing allows us to analyze DNA samples for genetic predispositions and inherited conditions.
-                  </p>
-                </div>
-                <div
-                  className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCP70ZUaDDfTsiCT8neiJifbPLVBcgznR7fsfXXfZdGZ9Rl3092gqf6E8YY")'}}
-                />
-              </div>
-            </div>
+            {/* …end of layout-content-container… */}
           </div>
         </div>
       </div>
