@@ -31,7 +31,7 @@ export default function Tools() {
                 <div className="flex flex-col gap-2  flex-[2_2_0px]">
                   <p className="text-white text-base font-bold leading-tight">IBM Imaging AI Orchestrator </p>
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
-                    IBM Imaging AI Orchestrator is a cloud‑based platform from IBM Watson Health that seamlessly integrates FDA‑cleared deep‑learning applications—such as convolutional neural networks for MRI reconstruction and U‑Net organ and lesion segmentation—directly into existing PACS workflows. The system ingests raw MRI DICOM or k‑space data, applying compressed‑sensing CNNs and super‑resolution networks to accelerate scan acquisition by up to 75% while maintaining high image fidelity. Encoder–decoder architectures then automatically detect, highlight, and quantify lesions, generating volumetric measurements and heatmaps that are overlaid on the original images. All AI outputs are unified via standardized APIs and presented in a HIPAA‑compliant on‑premises or secure cloud environment, so radiologists can review flagged regions and quantitative reports without leaving their workflow. Its modular design supports continuous integration of new machine‑learning models, enabling hospitals to adopt cutting‑edge AI tools as they emerge and ultimately reduce repeat scans, shorten exam times, and boost diagnostic confidence
+                    IBM Imaging AI Orchestrator is a cloud‑based platform from IBM Watson Health that seamlessly integrates FDA‑cleared deep‑learning applications, such as convolutional neural networks for MRI reconstruction and U‑Net organ and lesion segmentation, directly into existing PACS workflows. The system ingests raw MRI DICOM or k‑space data, applying compressed‑sensing CNNs and super‑resolution networks to accelerate scan acquisition by up to 75% while maintaining high image fidelity. Encoder–decoder architectures then automatically detect, highlight, and quantify lesions, generating volumetric measurements and heatmaps that are overlaid on the original images. All AI outputs are unified via standardized APIs and presented in a HIPAA‑compliant on‑premises or secure cloud environment, so radiologists can review flagged regions and quantitative reports without leaving their workflow. Its modular design supports continuous integration of new machine‑learning models, enabling hospitals to adopt cutting‑edge AI tools as they emerge and ultimately reduce repeat scans, shorten exam times, and boost diagnostic confidence
 
                   </p>
                 </div>
@@ -49,7 +49,7 @@ export default function Tools() {
               <button
                 onClick={() =>
                   window.open(
-                    "https://newsroom.ibm.com/2021-11-30-IBM-Watson-Health-Introduces-New-Opportunities-for-Imaging-AI-Adoption?utm_source=chatgpt.com",
+                    "https://newsroom.ibm.com/2021-11-30-IBM-Watson-Health-Introduces-New-Opportunities-for-Imaging-AI-Adoption?utm_source",
                     "_blank"
                   )
                 }

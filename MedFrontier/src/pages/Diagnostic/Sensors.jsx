@@ -21,10 +21,9 @@ export default function Sensors() {
 
             {/* Description */}
             <p className="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
-              Our recording devices are designed to capture high-quality physiological data, ensuring
-              accurate and reliable monitoring of patients' health. These devices are essential tools
-              for healthcare professionals, providing valuable insights into patient conditions and
-              aiding in effective treatment planning.
+             From brainwave scanners to voice-based diagnostics, AI-powered sensors are reshaping how we assess, 
+             detect, and respond to health challenges. These next-gen tools pair real-time data with intelligent analysis, 
+             bringing faster, smarter, and more personalized care within reach. Dive into the tech driving tomorrow’s diagnostics.
             </p>
 
             {/* Alive */}
@@ -76,7 +75,7 @@ export default function Sensors() {
                    BrainScope One is a handheld EEG assessment device that acquires multi-channel 
                    brainwave data via disposable forehead sensors in under 10 minutes and uses AI-driven signal-processing 
                    algorithms to evaluate brain injury and concussion at the point of care. Its machine-learning classifiers,
-                   trained on thousands of de-identified EEG records,detect electrophysiological signatures of intracranial hemorrhage
+                   trained on thousands of de-identified EEG records, detect electrophysiological signatures of intracranial hemorrhage
                    and concussion-related dysfunction, producing a quantitative Brain Function Index along with separate Bleed and Concussion 
                    Risk Scores. These results appear within minutes on the device screen, enabling clinicians to triage patients rapidly and potentially 
                    reduce unnecessary CT scans by up to one-third. The radiation-free, FDA-cleared system integrates seamlessly into emergency departments, 
@@ -122,7 +121,7 @@ export default function Sensors() {
                    onboard AI. The AI then provides a binary “yes” or “no” prediction on whether the wound will heal within a clinically 
                    significant timeframe (e.g., 50% closure in 4 weeks for DFUs), enabling faster, objective treatment decisions. 
                    The system incorporates deep learning models, specifically convolutional neural networks (CNNs) and segmentation 
-                   algorithms—trained on millions of annotated tissue data points. These models analyze wound tissue at the pixel level, 
+                   algorithms, trained on millions of annotated tissue data points. These models analyze wound tissue at the pixel level, 
                    outperforming clinicians in both sensitivity and accuracy. DeepView’s AI also includes predictive analytics for tissue 
                    oxygenation and healing progression, making it a valuable clinical decision support tool. By eliminating guesswork and 
                    standardizing wound assessments from Day One, DeepView improves outcomes while reducing treatment delays.
@@ -157,7 +156,7 @@ export default function Sensors() {
             <div className="p-6">
               <div className="flex items-stretch justify-between gap-6 rounded-xl">
                 <div className="flex flex-col gap-2 flex-[2_2_0px]">
-                  <p className="text-white text-base font-bold leading-tight">BrainScope One</p>
+                  <p className="text-white text-base font-bold leading-tight">Medtronic’s GI Genius™</p>
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
                    Medtronic’s GI Genius™ module is integrated into standard white-light colonoscopy systems and 
                    actively analyzes video frames in real time using trained convolutional neural network models. 
@@ -223,7 +222,7 @@ export default function Sensors() {
                       pipelines extract acoustic features (jitter, shimmer, pitch variability, and Mel-Frequency Cepstral Coefficients). 
                       These features feed into machine-learning classifiers (e.g., SVM, Random Forest) trained on thousands of 
                       PD and healthy control recordings; in published studies, Random Forest models achieved up to 94 % accuracy 
-                      in distinguishing PD from non-PD voices.Results, PD risk scores and feature-importance maps, are returned to 
+                      in distinguishing PD from non-PD voices. Results, PD risk scores and feature importance maps, are returned to 
                       clinicians via an online dashboard, enabling early, non-invasive screening and longitudinal monitoring. 
                       All model updates are delivered through regulated software releases under HIPAA compliance, ensuring data 
                       privacy and continual performance improvements. By reducing reliance on specialist in-person assessments, 
@@ -271,7 +270,7 @@ export default function Sensors() {
                     <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"
                       onClick={() =>
                        window.open(
-                    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8339427/?utm_source=chatgpt.com",
+                    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8339427/?utm_source",
                     "_blank"
                   )
                 }>
