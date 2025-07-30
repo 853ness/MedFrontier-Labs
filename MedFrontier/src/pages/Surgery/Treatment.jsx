@@ -20,9 +20,7 @@ export default function Treatment() {
             {/* Intro Text */}
             <>
               <p className="text-white text-base font-normal leading-normal pb-3 pt-1 px-6">
-                Dive into our cutting-edge research on robotic surgery, rehabilitation exoskeletons,
-                diagnostic imaging robots, drug-delivery micro-robots, and prosthetic limbs.
-                Click “Learn More” to explore the full research papers and technical details.
+                From augmented reality spine guidance to AI-assisted cranial planning, surgical treatment technologies are elevating precision in the OR. These advanced platforms blend real-time imaging, spatial computing, and machine learning to support safer, more targeted procedures. Discover how digital intelligence is transforming surgery from the inside out.
               </p>
             </>
 
@@ -36,7 +34,7 @@ export default function Treatment() {
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
                     Augmedics’ xvision Spine System is the first FDA-cleared, head-mounted augmented-reality platform that gives surgeons 
                     “x-ray vision” during spine procedures by overlaying 3D CT images onto the patient’s anatomy in real time. The system 
-                    uses AI-driven registration algorithms—built on convolutional neural networks—to match preoperative CT scans to the patient’s 
+                    uses AI-driven registration algorithms, built on convolutional neural networks, to match preoperative CT scans to the patient’s 
                     intraoperative position, achieving 97–100 % pedicle-screw placement accuracy across 10,000+ cases. 
                      Once registered, the AR display guides instrument trajectories and implant alignment without forcing surgeons 
                      to look away at a separate monitor. All image-processing and registration run on a self-contained compute module in the 
@@ -128,7 +126,7 @@ export default function Treatment() {
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
                    7D Surgical’s FLASH Navigation platform provides real-time, image-guided navigation for knee, hip, and shoulder arthroplasty without robots, using visible-light cameras and AI-powered computer vision 
                     The system employs proprietary ML algorithms to track reflective markers on instruments and patient landmarks at up to 120 Hz, creating an accurate 3D model of bony anatomy in seconds. An encoder–decoder CNN fuses this optical data with preoperative CT or MRI scans to register the patient’s true coordinate frame, enabling surgeons to position implants with ±1 mm accuracy. All processing runs on a mobile compute cart in the OR, with instant visualization of alignment guides on a touchscreen display. By eliminating line-of-sight issues and ionizing radiation, 
-                    LASH increases OR flexibility while maintaining precision. Its AI-driven registration completes in under 30 s, minimizing added surgical time and improving implant placement consistency across surgeon experience levels.
+                    FLASH increases OR flexibility while maintaining precision. Its AI-driven registration completes in under 30 s, minimizing added surgical time and improving implant placement consistency across surgeon experience levels.
                   </p>
                 </div>
                 <div

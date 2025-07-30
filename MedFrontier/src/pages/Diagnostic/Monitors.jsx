@@ -18,10 +18,7 @@ export default function Monitors() {
               </p>
             </div>
             <p className="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
-              Our recording devices are designed to capture high-quality physiological data, ensuring
-              accurate and reliable monitoring of patients' health. These devices are essential tools
-              for healthcare professionals, providing valuable insights into patient conditions and
-              aiding in effective treatment planning.
+             From seizure-responsive implants to AI-enhanced ECG platforms, diagnostic monitors are evolving into intelligent systems that not only track but interpret complex signals. These innovations offer faster alerts, deeper insights, and more precise interventions across cardiac and neurological care. Step into the future of real-time monitoring.
             </p>
 
 
@@ -45,20 +42,13 @@ export default function Monitors() {
                         RhythmAnalytics™
                       </p>
                       <p className="text-[#93b3c8] text-base leading-normal mt-1">
-                        Biofourmis’ RhythmAnalytics™ platform is a cloud-based AI solution that ingests ambulatory ECG recordings from FDA-cleared wearable sensors and processes them 
-                        through a densely connected convolutional neural network trained on over a million ECGs. The AI pipeline segments P-, QRS-, and T-wave complexes and classifies more than 15 arrhythmia types
-                        including atrial fibrillation, ventricular ectopy, and pauses on a beat-by-beat basis. Clinicians upload patient ECG data to the secure RhythmAnalytics portal, where the system runs 
-                        real-time analysis and generates prioritized alerts for urgent cases via an interactive dashboard. The platform computes detailed morphology metrics and arrhythmia risk scores, reducing manual
-                        interpretation time by about 42% while maintaining over 99% agreement with physician reviews Integration with EHRs is achieved through vendor-neutral APIs, embedding AI-flagged ECG strips 
-                        and summary reports directly into existing workflows without additional hardware. All algorithm updates are delivered through regulated software releases under FDA 510(k) clearance, 
-                        ensuring continuous performance improvements in a HIPAA-compliant environment. By automating ECG interpretation and triage, RhythmAnalytics supports proactive cardiac care, enabling 
-                        earlier intervention and reducing the burden on clinical teams.
+                        Biofourmis’ RhythmAnalytics™ is a cloud-native AI platform built for real-time arrhythmia detection and triage in remote and ambulatory care settings. It uses a densely connected convolutional neural network trained on over one million ECG recordings to detect more than 15 types of arrhythmias, including ventricular ectopy, atrial fibrillation, and signal pauses. Once a patient’s ECG is uploaded from a wearable device, the AI engine processes it beat-by-beat, scoring waveform morphology and generating risk scores that power triage alerts. What sets RhythmAnalytics apart is its emphasis on real-time monitoring, interactive dashboards, and seamless integration into remote patient management systems. It functions as part of a broader Biofourmis ecosystem, pairing with FDA-cleared wearables and predictive analytics to support proactive care. Through HIPAA-compliant infrastructure and regulated algorithm updates, it enhances early intervention and reduces the workload on clinical teams. RhythmAnalytics is best suited for outpatient care models where continuous, intelligent cardiac monitoring is essential.
                       </p>
                     </div>
                     <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"
                     onClick={() =>
                        window.open(
-                    "https://www.innovationsincrm.com/latest-news/1528-biofourmis-rhythmanalytics-platform-receives-fda-clearance?utm_source=chatgpt.com",
+                    "https://www.innovationsincrm.com/latest-news/1528-biofourmis-rhythmanalytics-platform-receives-fda-clearance?utm_source",
                     "_blank"
                   )
                 }>
@@ -92,7 +82,7 @@ export default function Monitors() {
                     <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"
                     onClick={() =>
                        window.open(
-                    "https://ceribell.com/product/clarity/?utm_source=chatgpt.com",
+                    "https://ceribell.com/product/clarity/?utm_source",
                     "_blank"
                   )
                 }>
@@ -153,14 +143,7 @@ export default function Monitors() {
                         Philips Cardiologs AI ECG Analysis Platform
                       </p>
                       <p className="text-[#93b3c8] text-base leading-normal mt-1">
-                        Philips Cardiologs AI is a cloud-based Holter ECG analysis solution that employs deep neural networks trained on over 200 million ECG recordings to detect more than 20 arrhythmia types,
-                        such as atrial fibrillation, pauses, and ventricular tachycardia, with cardiologist-level accuracy. After a patient wears a Holter or patch device, the full ECG is uploaded to the 
-                        secure Cardiologs cloud, where a convolutional neural-network pipeline segments P-, QRS-, and T-wave complexes and flags clinically actionable events. 
-                        These AI-flagged episodes are then reviewed by certified cardiographic technicians, reducing manual analysis time by up to 42 % while maintaining 99 % 
-                        agreement with physician interpretations. The platform’s vendor-neutral design and standardized APIs allow seamless integration into existing EHR and PACS systems, 
-                        delivering annotated ECG strips and summary reports directly into clinicians’ workflows. Regular, regulated software updates refine the underlying models
-                        never via uncontrolled retraining on live patient data to continuously enhance detection performance. Deployed under FDA 510(k) clearance and CE marking, 
-                        Cardiologs AI streamlines ambulatory ECG interpretation, accelerates diagnosis, and expands access to expert-level arrhythmia screening.
+                        Philips Cardiologs AI is a cloud-based platform designed specifically for advanced Holter ECG analysis in clinical environments. It uses deep convolutional neural networks trained on over 200 million annotated ECG recordings to detect more than 20 arrhythmia types, including atrial fibrillation, AV blocks, and ventricular tachycardia. The platform automatically segments P-, QRS-, and T-wave complexes and maps entire rhythm patterns in one pass, reducing false positives and maintaining high agreement with expert cardiologists. Cardiologs stands out for its hospital-focused design, offering seamless integration into EHR and PACS systems through standardized APIs, delivering annotated ECG strips and reports directly into clinical workflows. Unlike broader remote monitoring tools, Cardiologs is optimized for in-clinic Holter workflows and batch processing of ambulatory ECGs. Regular FDA-cleared software updates improve its performance without relying on uncontrolled live data retraining. By streamlining diagnostic review and reducing manual analysis time, Cardiologs accelerates in-hospital arrhythmia detection with precision and scale.
                       </p>
                     </div>
                     <button className="self-start mt-4 px-4 h-8 rounded-full bg-[#1993e5] text-white text-sm font-medium"

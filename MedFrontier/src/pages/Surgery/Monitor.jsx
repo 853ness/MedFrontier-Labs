@@ -20,9 +20,9 @@ export default function Monitor() {
             {/* Intro Text */}
             <>
               <p className="text-white text-base font-normal leading-normal pb-3 pt-1 px-6">
-                Dive into our cutting-edge research on robotic surgery, rehabilitation exoskeletons,
-                diagnostic imaging robots, drug-delivery micro-robots, and prosthetic limbs.
-                Click “Learn More” to explore the full research papers and technical details.
+                From smart OR cameras to AI-assisted instrument tracking, surgical monitoring is entering a new era of precision and insight. 
+                These platforms use computer vision, real-time analytics, and machine learning to optimize decision-making,
+                reduce complications, and streamline surgical workflows. Explore how technology is reshaping the operating room experience from start to close.
               </p>
             </>
 
@@ -122,13 +122,13 @@ export default function Monitor() {
                   </p>
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
                     Theator automatically ingests and de-identifies all laparoscopic and robotic video, then applies computer-vision-powered 
-                    deep CNNs to segment surgical phases, instruments, and key anatomical landmarks in real time Its action-recognition models 
+                    deep CNNs to segment surgical phases, instruments, and key anatomical landmarks in real time. Its action-recognition models 
                     classify intra-operative steps (e.g., dissection, clipping, suturing) and event-detection networks flag critical moments
-                    uch as hemostasis checks or specimen extraction for live annotation. These AI-generated annotations populate a searchable, 
+                    such as hemostasis checks or specimen extraction for live annotation. These AI-generated annotations populate a searchable, 
                     cloud-hosted video library, enabling surgeons to jump directly to critical clips for review or training. Unsupervised 
                     clustering analyses reveal procedural variations correlated with outcomes, helping teams standardize best practices. 
                     The platform’s ML-driven dashboards track individual and departmental performance metrics, case times, instrument-usage efficiency, 
-                    safety milestone adherence—supporting data-driven quality initiatives. Deployed on-premises or in secure clouds, Theator integrates with hospital Single Sign-On and EHR for seamless workflow adoption.
+                    safety milestone adherence, supporting data-driven quality initiatives. Deployed on-premises or in secure clouds, Theator integrates with hospital Single Sign-On and EHR for seamless workflow adoption.
                   </p>
                 </div>
                 <div
@@ -148,7 +148,7 @@ export default function Monitor() {
                 <button className="bg-[#293238] hover:bg-blue-700 text-white text-l font-medium py-2 px-6 rounded-full"
                  onClick={() =>
                        window.open(
-                    "https://caresyntax.com/our-platform/connected-surgery/",
+                    "https://theator.io/",
                     "_blank"
                   )
                 }>
@@ -166,7 +166,7 @@ export default function Monitor() {
                   </p>
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
                     Mayo Clinic researchers developed a real-time computer-vision system that processes standard OR video feeds through 
-                    a region-based CNN (e.g., Faster R-CNN) trained on a dataset of 13,213 labeled surgical‐instrument images across 11 categories.
+                    a region-based CNN (e.g., Faster R-CNN) trained on a dataset of 13, 213 labeled surgical‐instrument images across 11 categories.
                     The model achieves 98 % precision and 99 % recall in tool detection, even when instruments overlap, by segmenting P, QRS, and 
                     T-like features of tool shapes. During live procedures, the system counts instruments frame-by-frame at 40 fps, 
                     immediately alerting staff to any mismatches in the expected vs. actual instrument count. This reduces the risk 
@@ -211,7 +211,7 @@ export default function Monitor() {
                   </p>
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
                     AIRA (formerly Airez by Huvr) deploys discreet visual and and environmental sensors throughout the OR, cameras, motion detectors, air-quality monitors
-                    ,and sends their data to an AI-driven fusion engine that uses unsupervised and supervised ML to recognize contextual patterns and anomalies (e.g., sterile-zone breaches, door-opening frequency) 
+                    , and sends their data to an AI-driven fusion engine that uses unsupervised and supervised ML to recognize contextual patterns and anomalies (e.g., sterile-zone breaches, door-opening frequency) 
                     . Computer-vision classifiers detect unauthorized entry or improper gowning, while time-series models track temperature, humidity, and particulate counts to flag conditions 
                     conducive to SSIs. Real-time alerts are routed to OR staff or infection-control officers via mobile dashboards or overhead displays, enabling immediate corrective action. Over time, 
                     pattern-mining algorithms learn each OR’s unique “normal,” improving anomaly-detection sensitivity and reducing false alarms. Historical analytics identify staffing or procedural 

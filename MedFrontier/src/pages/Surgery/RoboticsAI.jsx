@@ -20,9 +20,10 @@ export default function RoboticsAI() {
             {/* Intro Text */}
             <>
               <p className="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
-                Dive into our cutting-edge research on robotic surgery, rehabilitation exoskeletons,
-                diagnostic imaging robots, drug-delivery micro-robots, and prosthetic limbs.
-                Click “Learn More” to explore the full research papers and technical details.
+               From robotic bronchoscopies to AI-guided tumor detection, surgical robotics are becoming smarter, more 
+               precise, and increasingly autonomous. These next-gen systems combine robotics with deep learning, computer 
+               vision, and real-time analytics to assist surgeons in complex, minimally invasive procedures. Explore how 
+               intelligence is being built into every movement in the modern OR.
               </p>
             </>
 
@@ -35,7 +36,7 @@ export default function RoboticsAI() {
                   </p>
                   <p className="text-[#9daeb8] text-sm font-normal leading-normal">
                     The da Vinci 5 is Intuitive Surgical’s latest multiport robotic platform,
-                    delivering 10 000× the computing power of its predecessor to enable AI-driven
+                    delivering 10,000× the computing power of its predecessor to enable AI-driven
                     force-feedback, tremor filtration, and advanced 3D vision for minimally
                     invasive procedures. Surgeons operate from a high-definition console while 
                     real-time kinematic and video data feed onboard analytics that optimize instrument 
