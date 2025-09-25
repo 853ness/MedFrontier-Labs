@@ -4,7 +4,7 @@ import { Navbar } from './components/Navbar'
 import Home from "./pages/Home"
 import About from "./pages/About"
 
-import Monitors from './pages/Diagnostic/monitors'
+import Monitors from './pages/Diagnostic/Monitors'
 import Sensors from './pages/Diagnostic/Sensors'
 import Tools from './pages/Diagnostic/Tools'
 
