@@ -30,11 +30,12 @@ jobs:
 
       - name: Build Vite project
         run: npm run build
+        working-directory: ./MedFrontier
 
       - name: Upload production-ready files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # 👈 Vite builds into dist/
+          path: ./MedFrontier/dist
 
   deploy:
     environment:
